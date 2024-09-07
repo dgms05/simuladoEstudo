@@ -49,4 +49,6 @@ Este projeto está licenciado sob a licença MIT.
   - Relatórios de desempenho
   - Integração com sistemas de autenticação
 
+**Link Vercel:** https://simulado-estudo-imersaoalura.vercel.app/
+
 **Divirta-se estudando!**
