@@ -1,0 +1,86 @@
+/* Mantém as configurações gerais do corpo */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #b39ddb;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem;
+    color: #222831;
+    text-align: center;
+    letter-spacing: 0rem;
+}
+
+/* Centraliza a pergunta */
+.resultados-pesquisa {
+    width: 100%;  /* Usa 100% da largura disponível */
+    max-width: 700px; /* Define uma largura máxima para centralizar o conteúdo */
+    text-align: left; /* Alinha o texto das perguntas e opções à esquerda */
+    margin: 0 auto; /* Centraliza o contêiner da pergunta */
+    padding: 1rem; /* Adiciona espaço interno para melhor apresentação */
+}
+
+/* Estiliza as opções de resposta */
+.opcao {
+    display: flex; /* Usa Flexbox para organizar o input e o texto */
+    align-items: center; /* Centraliza verticalmente o texto e o input */
+    margin-bottom: 1rem; /* Espaço entre cada opção */
+    padding-left: 1rem; /* Ajuste opcional para espaçamento à esquerda */
+}
+
+/* Espaçamento entre o botão de rádio e o texto */
+.opcao input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+/* Estiliza o botão "Enviar Resposta" */
+section button {
+    align-self: flex-end;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #30475E;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+section button:hover {
+    background-color: #1f3340;
+}
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #F5F7F8;
+    color: #45474B;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem 0; /* Mantém o padding ajustado */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8rem; /* Diminuindo o tamanho da letra do footer */
+    height: auto; /* Define a altura automática */
+}
+
+/* Estilizando a pergunta em negrito */
+.resultados-pesquisa p {
+    font-weight: bold; /* Deixa a pergunta em negrito */
+    font-size: 1.1rem; /* Tamanho da pergunta para maior destaque */
+}
+
+/* Para garantir que o conteúdo não fique escondido atrás do footer */
+body {
+    margin-bottom: 100px; /* Adiciona espaço extra no fim do corpo para o footer */
+}
